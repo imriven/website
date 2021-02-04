@@ -9,50 +9,81 @@
           <h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">{{ .title | markdownify }}
           </h1>
           <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">{{ .description | markdownify }}</p>
-          <div class="subscription-form">
-      
+        </div>
 
-            <div class=delivery-map>
-              <div id='map' style='width: 70vw; height: 50vh;'></div>
-              <script>
-                mapboxgl.accessToken =
-                  'pk.eyJ1Ijoib3JnYW5pYy1tb3RoZXJsYW5kLWZvb2RzIiwiYSI6ImNra3I2d25rcDA4ZHUycHJvZ2ZwYjBodW4ifQ.bO0YVlkOx9kwQB6P1aQfEw';
-                var map = new mapboxgl.Map({
-                  container: 'map',
-                  style: 'mapbox://styles/organic-motherland-foods/ckkr907wi16mr17pdeu6r86bk', // stylesheet location
-                  center: [-78.9, 35.9], // starting position [lng, lat]
-                  zoom: 11 // starting zoom
-                });
+        <div class="subscription-form">
 
-var marker = new mapboxgl.Marker()
-.setLngLat([0, 0])
-.setPopup(new mapboxgl.Popup().setHTML("<h1>Hello World!</h1>")) // add popup
-.addTo(map);
-                
 
-              </script>
-            </div>
+          <div class=delivery-map>
+            <div id='map' style='width: 70vw; height: 50vh;'></div>
+            <script>
+              mapboxgl.accessToken =
+                'pk.eyJ1Ijoib3JnYW5pYy1tb3RoZXJsYW5kLWZvb2RzIiwiYSI6ImNra3I2d25rcDA4ZHUycHJvZ2ZwYjBodW4ifQ.bO0YVlkOx9kwQB6P1aQfEw';
+              var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/organic-motherland-foods/ckkr907wi16mr17pdeu6r86bk', // stylesheet location
+                center: [-78.903, 35.984], // starting position [lng, lat]
+                zoom: 12 // starting zoom
+              });
 
-            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-            <script type='text/javascript'>
-              (function ($) {
-                window.fnames = new Array();
-                window.ftypes = new Array();
-                fnames[0] = 'EMAIL';
-                ftypes[0] = 'email';
-                fnames[1] = 'FNAME';
-                ftypes[1] = 'text';
-                fnames[2] = 'LNAME';
-                ftypes[2] = 'text';
-                fnames[3] = 'ADDRESS';
-                ftypes[3] = 'address';
-                fnames[4] = 'PHONE';
-                ftypes[4] = 'phone';
-              }(jQuery));
-              var $mcj = jQuery.noConflict(true);
+              var Bulldega = new mapboxgl.Marker()
+                .setLngLat([-78.9, 35.99])
+                .setPopup(new mapboxgl.Popup().setHTML(
+                  "<h3>Bulldega Urban Market</h3> <p>129 W Parrish St, Durham, NC 27701</p> ")) // add popup
+                .addTo(map);
+
+              var SoulyVegan = new mapboxgl.Marker()
+                .setLngLat([-78.96, 35.96])
+                .setPopup(new mapboxgl.Popup().setHTML(
+                  "<h3>Souly Vegan Cafe</h3> <p>4125 Durham-Chapel Hill Blvd, Durham, NC 27707</p>")) // add popup
+                .addTo(map);
+
+              var DurhamCoop = new mapboxgl.Marker()
+                .setLngLat([-78.91, 35.96])
+                .setPopup(new mapboxgl.Popup().setHTML(
+                  "<h3>Durham Co-Op Market</h3> <p>1111 W Chapel Hill St, Durham, NC 27701</p>")) // add popup
+                .addTo(map);
+
+              var SoulFresh = new mapboxgl.Marker()
+                .setLngLat([-78.85, 36.02])
+                .setPopup(new mapboxgl.Popup().setHTML(
+                  "<h3>Soul Fresh Spring Rolls</h3> <p>3108 Glen Road, Durham, North Carolina 27704</p>")) // add popup
+                .addTo(map);
+
+              var ChoiceCutts = new mapboxgl.Marker()
+                .setLngLat([-78.90, 35.99])
+                .setPopup(new mapboxgl.Popup().setHTML("<h3>Choice Cutts Barber/Styling</h3> <p>208 Foster St, Durham, NC 27701</p>")) // add popup
+                .addTo(map);
+
+
             </script>
-            <!--End mc_embed_signup-->
+
+
           </div>
+
+          <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+          <script type='text/javascript'>
+            (function ($) {
+              window.fnames = new Array();
+              window.ftypes = new Array();
+              fnames[0] = 'EMAIL';
+              ftypes[0] = 'email';
+              fnames[1] = 'FNAME';
+              ftypes[1] = 'text';
+              fnames[2] = 'LNAME';
+              ftypes[2] = 'text';
+              fnames[3] = 'ADDRESS';
+              ftypes[3] = 'address';
+              fnames[4] = 'PHONE';
+              ftypes[4] = 'phone';
+            }(jQuery));
+            var $mcj = jQuery.noConflict(true);
+          </script>
+          <!--End mc_embed_signup-->
+        </div>
+        <div class=online-retailers>
+          <p> You can also purchase online at these retailers:</p>
+          <a href="https://africanamericandollarstore.weebly.com/">African American Dollar Tree Stores</a>
         </div>
       </div><!-- .col-md-12 close -->
     </div><!-- .row close -->

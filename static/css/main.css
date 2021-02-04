@@ -620,6 +620,48 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
+#subscribe .online-retailers {
+  margin: 0 auto;
+  width: 35%;
+  padding: 2%;
+  background-color: rgba(65, 128, 133, .5);
+}
+
+#subscribe .online-retailers p {
+  font-size: 1.8rem;
+  color: rgb(2, 247, 247);
+  padding-bottom: 5%;
+}
+
+#subscribe .online-retailers a{
+font-size: 1.5rem;
+color: white;
+}
+
+#subscribe .online-retailers a:hover {
+  color: goldenrod;
+}
+
+#subscribe .heading:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 140px;
+  height: 3px;
+  background: black;
+  margin-left: -70px;
+}
+
+#subscribe .delivery-map h3 {
+  font-size: 1.75rem;
+  color: rgb(17, 94, 236);
+}
+
+#subscribe .block .delivery-map p {
+  font-size: 2rem;
+}
+
 .subscription-form {
   display: flex;
   justify-content: center;
