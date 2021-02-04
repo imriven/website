@@ -633,9 +633,9 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   padding-bottom: 5%;
 }
 
-#subscribe .online-retailers a{
-font-size: 1.5rem;
-color: white;
+#subscribe .online-retailers a {
+  font-size: 1.5rem;
+  color: white;
 }
 
 #subscribe .online-retailers a:hover {
