@@ -212,6 +212,25 @@ nav .block .navbar-default {
   height: auto;
 }
 
+@media only screen and (max-width: 600px) {
+
+  #navigation,
+  .navbar,
+  .img-responsive img {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  #navigation,
+  .navbar,
+  .img-responsive img {
+    max-width: 50%;
+  }
+}
+
+
 nav .block .navbar-default .navbar-brand {
   padding-left: 0px;
 }
@@ -593,9 +612,23 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 /*--
     subscribe Start
 --*/
+
+
+#subscribe .delivery-map {
+  display: flex;
+  width: 70vw;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.subscription-form {
+  display: flex;
+  justify-content: center;
+  padding: 5% 0;
+
+}
+
 .subscription-form #mc_embed_signup {
   background: none;
-  width: 70%;
   margin: 0 auto;
 }
 
@@ -640,22 +673,21 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 }
 
 #subscribe {
+
   padding: 100px 0px;
   text-align: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
+  color: black;
 
 }
 
-#subscribe .block h1.heading {
-  color: #fff;
-}
+
 
 #subscribe .block p {
   padding: 25px 0px;
-  color: #fff;
   font-size: 18px;
 }
 

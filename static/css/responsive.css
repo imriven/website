@@ -170,7 +170,7 @@ px      68    160    252    */
     margin-top: 0px;
   }
   nav .block .navbar-default .navbar-header .navbar-toggle {
-    margin-top: 15px;
+    margin-top: 15px; 
     border: none;
   }
   nav .block .navbar-default .navbar-header .navbar-toggle .icon-bar {

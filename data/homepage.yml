@@ -108,9 +108,10 @@ Fresh Organic Lemons"
 ################### Subscription ################
 subscription:
   enable: true
-  bg_image: "images/subscribe-bg.jpg"
-  title: "SUBSCRIBE to our <span>NEWSLETTER</span>"
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+  bg_image: "images/lemons.jpg"
+  title: "Delivery Area"
+  description: "You can find our drinks here. PLEASE CONTACT US IF YOU HAVE A RETAIL OUTLET OR EVENT WHERE MOTHERLAND BEVERAGES CAN BE SOLD
+CURB SIDE PICK UP & SHIPPING WITHIN THE CONTINENTAL USA"
   #Mailchimp subscription configaration
   form_action: "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
   formName: "b_f95ece2732a6e9925f2e70a61_b1e227529e"

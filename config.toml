@@ -52,7 +52,7 @@ weight = 4
 
 [[menu.main]]
 name = "Testimonials"
-URL = "testimonials"
+URL = "blog"
 weight = 3
 
 [[menu.main]]
@@ -62,23 +62,23 @@ weight = 2
 
 [[menu.main]]
 name = "Social Justice"
-URL = "social"
+URL = "#"
 weight = 5
 
 [[menu.main]]
 name = "Contact Us"
 URL = "contact-us"
-weight = 7
+weight = 8
 
 [[menu.main]]
 name = "Recipes"
-URL = "recipes"
+URL = "#"
 weight = 6
 
 [[menu.main]]
 name = "Delivery Area"
-URL = "delivery"
-weight = 8
+URL = "subscribe"
+weight = 7
 
 #################### default parameters ################################
 [params]
