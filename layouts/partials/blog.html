@@ -6,6 +6,7 @@
 			<div class="col-md-12">
 				<div class="block">
 					<h1 class="heading">{{ site.Data.homepage.blog.title | markdownify }}</h1>
+					<h4 class=subtitle>{{site.Data.homepage.blog.subtitle}}</h4>
 					{{ $paginator := .Paginate site.RegularPages }}
 					{{ range first 4 (where site.RegularPages "Type" "in" site.Params.main_sections) }}
 					<div class="col-lg-6">
@@ -21,7 +22,7 @@
 					</div>
 					{{ end }}
 					<div class="text-center">
-						<a href="/post" class="btn btn-default">All Post</a>
+						<a href="/post" class="btn btn-default">All Videos</a>
 					</div>
 				</div>
 			</div>

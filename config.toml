@@ -91,7 +91,7 @@ google_analitycs_id = "Your ID"
 # mainSections
 main_sections = ["post"]
 # copyright
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com) Reimagined by [Christina Design & Development](https://www.christinaharris.dev/)"
 
 # Preloader
 [params.preloader]
@@ -102,7 +102,7 @@ preloader = "" # use .png , .svg or .gif format
 [params.footer]
 enable = true
 contactInfoTitle = "CONTACT <span>INFO</span> "
-blogTitle = "LATEST <span>BLOG POSTS</span>"
+blogTitle = "LATEST <span>VLOG POSTS</span>"
 galleryTitle = "PHOTO <span>STREAM</span>"
 socialTitle = "Follow <span>US</span>"
 
@@ -115,31 +115,12 @@ content = "016742 323313"
 [[params.footer.contactItem]]
 title="Address"
 icon = "fa fa-map-marker"
-content = "2046 Blue Spruce Lane Laurel Canada"
+content = "Durham NC USA"
 
 [[params.footer.contactItem]]
 title="E mail"
 icon = "fa fa-envelope"
 content = "rest@gmail.com - rest@mail.ru"
-
-######################### footer gallery
-[[params.footer.gallery]]
-image = "images/slider/slider-img-1.jpg"
-
-[[params.footer.gallery]]
-image = "images/slider/slider-img-2.jpg"
-
-[[params.footer.gallery]]
-image = "images/slider/slider-img-3.jpg"
-
-[[params.footer.gallery]]
-image = "images/slider/slider-img-4.jpg"
-
-[[params.footer.gallery]]
-image = "images/slider/slider-img-1.jpg"
-
-[[params.footer.gallery]]
-image = "images/slider/slider-img-2.jpg"
 
 ######################## Social Icon 
 [[params.footer.socialLink]]
@@ -148,10 +129,6 @@ link = "https://fb.com/themefisher"
 
 [[params.footer.socialLink]]
 icon = "twitter"
-link = "https://fb.com/themefisher"
-
-[[params.footer.socialLink]]
-icon = "dribbble"
 link = "https://fb.com/themefisher"
 
 [[params.footer.socialLink]]

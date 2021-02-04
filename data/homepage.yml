@@ -11,17 +11,17 @@ gallery:
   products:
     - link: "product"
       image: "images/slider/lemon-ginger.jpg"
-    - link: "www.google.com"
+    - link: "product"
       image: "images/slider/lemonade.jpg"
-    - link: "www.google.com"
+    - link: "product"
       image: "images/slider/tumeric2.jpg"
-    - link: "www.google.com"
+    - link: "product"
       image: "images/slider/unsweetened.jpg"
-    - link: "www.google.com"
+    - link: "product"
       image: "images/slider/ginger-lemon-water.jpg"
-    - link: "www.google.com"
+    - link: "product"
       image: "images/slider/tumeric.jpg"
-    - link: "www.google.com"
+    - link: "product"
       image: "images/slider/cupcakes.jpg"
 
 
@@ -37,15 +37,16 @@ welcome:
     ################ About #######################
 about:
   enable: true
-  image: "images/cooker-img.png"
-  title: "Featured Your <span> Restaurant’s</span> Website Has To Look Good"
+  image: "images/mlf-logo.png"
+  title: "About Organic Motherland Foods"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
 
 ################# Blog ######################
 blog:
   enable: true
-  title: "Our Latest <span>Blog</span>"
-  bg_image: "images/blog/blog-bg.jpg"
+  title: "Our Happy Customers"
+  subtitle: "If you're not convinced see what our customers have to say!"
+  bg_image: "images/blog/plants.jpg"
   overlay: true
 
 ################# food Menu ################
@@ -58,29 +59,51 @@ Fresh Organic Ginger - Organic Turmeric Root -
 Fresh Organic Lemons"
   subtitle:
     type: "Lemonades"
-    description: The most versatile healthy immune system boosting beverage...It's delicious...Hot, Cold or as a mixer..."
+    description: The most versatile healthy immune system boosting beverage...  It's delicious...  Hot, Cold or as a mixer..."
   pricing_item:
     - title: "Organic Ginger Lemonade"
       size: "8 oz"
-      ingredients: "Purified Water, Fresh Organic Ginger Root,100% Lemon Juice concentrate,Organic Cane Sugar, Organic Lemon Juice, Organic Lemons"
+      ingredients: "Purified Water, Fresh Organic Ginger Root, 100% Lemon Juice concentrate,Organic Cane Sugar, Organic Lemon Juice, Organic Lemons"
       price: "$ 3.99"
 
     - title: "Organic Ginger Lemonade"
       size: "750 mL"
-      ingredients: "Purified Water, Fresh Organic Ginger Root,100% Lemon Juice concentrate,Organic Cane Sugar, Organic Lemon Juice, Organic Lemons"
+      ingredients: "Purified Water, Fresh Organic Ginger Root, 100% Lemon Juice concentrate,Organic Cane Sugar, Organic Lemon Juice, Organic Lemons"
       price: "$ 14.95"
 
-    
+    - title: "Organic Tumeric Ginger Lemonade"
+      size: "8 oz"
+      ingredients: "Purified Water,Fresh Organic Ginger Root, 100% Lemon Juice concentrate, Organic Cane Sugar, Organic Turmeric Root, Organic Lemons"
+      price: "$ 3.99"
 
-  subtitle2: "Premium Water"
+    - title: "Organic Tumeric Ginger Lemonade"
+      size: "750 mL"
+      ingredients: "Purified Water,Fresh Organic Ginger Root, 100% Lemon Juice concentrate, Organic Cane Sugar, Organic Turmeric Root, Organic Lemons"
+      price: "$ 14.95"
+
+    - title: "Unsweetened Organic Tumeric Ginger Lemonade"
+      size: "8 oz"
+      ingredients: "Purified Water,Fresh Organic Ginger Root, 100% Lemon Juice concentrate, Organic Turmeric Root, Organic Lemons"
+      price: "$ 3.99"
+
+    - title: "Unsweetened Organic Tumeric Ginger Lemonade"
+      size: "750 mL"
+      ingredients: "Purified Water,Fresh Organic Ginger Root, 100% Lemon Juice concentrate, Organic Turmeric Root, Organic Lemons"
+      price: "$ 14.95"
+
+  subtitle2:
+    type: "Premium Water"
+    description: "Grab n' Go-Easy Carry! "
   pricing_item2:
-    - title: "Pancakes n' Such Titas"
+    - title: "Organic Ginger Lemon Water"
+      size: "8 oz"
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-      price: "$ 125.00"
+      price: "$ 2.35"
 
-    - title: "Caesar Salad"
+    - title: "Organic Tumeric Ginger Lemon Water"
+      size: "8 oz"
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-      price: "$ 100.00"
+      price: "$ 2.35"
 
 ################### Subscription ################
 subscription:
@@ -96,6 +119,6 @@ subscription:
 ################ Contact #######################
 contact:
   enable: true
-  title: "Let's <span> Contact Us </span>"
-  subtitle: "SIGN UP FOR EMAIL ALERTS"
+  title: "<span> Contact Us </span>"
+  subtitle: "Comments are welcomed... also receive coupons, event and sale information."
   form_action: "#" #contact form works with formspree.io

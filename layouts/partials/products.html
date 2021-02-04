@@ -12,7 +12,7 @@
 					<div class="pricing-list">
 						<div class="title">
 							<h2>{{ .subtitle.type | markdownify }}</h2>
-							<h3>{{ .subtitle.description | markdownify }}</h3>
+							<h4>{{ .subtitle.description | markdownify }}</h4>
 						</div>
 						<ul>
 							{{ range .pricing_item }}
@@ -20,7 +20,6 @@
 								<div class="item">
 									<div class="item-title">
 										<h2>{{.title}} {{.size}}</h2>
-										
 										<div class="border-bottom"></div>
 										<span>{{.price}}</span>
 									</div>
@@ -33,14 +32,15 @@
 					</div>
 					<div class="pricing-list">
 						<div class="title">
-							<h3>{{ .subtitle2 | markdownify }}</h3>
+							<h2>{{ .subtitle2.type | markdownify }}</h2>
+							<h4>{{ .subtitle2.description | markdownify }}</h4>
 						</div>
 						<ul>
 							{{ range .pricing_item2 }}
 							<li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
 								<div class="item">
 									<div class="item-title">
-										<h2>{{.title}}</h2>
+										<h2>{{.title}} {{.size}}</h2>
 										<div class="border-bottom"></div>
 										<span>{{.price}}</span>
 									</div>

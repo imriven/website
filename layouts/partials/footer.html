@@ -37,15 +37,6 @@
 			<!-- .col-md-4 close -->
 			<div class="col-md-4">
 				<div class="block wow fadeInLeft" data-wow-delay="1100ms">
-					<div class="gallary">
-						<h3>{{ with site.Params.footer.galleryTitle }} {{ . | safeHTML }} {{ end }}</h3>
-						<ul class="gallery">
-							{{ range site.Params.footer.gallery }}
-							<li><a href="{{ .image | absURL }}" class="venobox" data-gall="footerGallery"><img class="img-responsive"
-										src="{{ .image | absURL }}" alt=""></a></li>
-							{{ end }}
-						</ul>
-					</div>
 					<div class="social-media-link">
 						<h3>{{ with site.Params.footer.socialTitle }} {{ . | safeHTML }} {{ end }}</h3>
 						<ul>

@@ -10,7 +10,7 @@
 					</div>
 					<div class="gallery-slider">
 						{{ range .products }}
-						<a href="#{{ .link }}" data-gall="sliderGallery"><img class="img-responsive product-nav"
+						<a href="#{{.link}}" data-gall="sliderGallery"><img class="img-responsive product-nav"
 								src="{{ .image | absURL }}" alt=""></a>
 						{{ end }}
 					</div>
