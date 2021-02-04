@@ -1,0 +1,3 @@
+[submodule "themes/restaurant-hugo"]
+	path = themes/restaurant-hugo
+	url = https://github.com/gethugothemes/restaurant-hugo.git
