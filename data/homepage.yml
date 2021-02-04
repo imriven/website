@@ -8,17 +8,33 @@ hero_area:
 gallery:
   enable: true
   title: "FEATURED PRODUCTS"
-  images:
-    - "images/slider/lemon-ginger.jpg"
-    - "images/slider/lemonade.jpg"
-    - "images/slider/tumeric2.jpg"
-    - "images/slider/unsweetened.jpg"
-    - "images/slider/ginger-lemon-water.jpg"
-    - "images/slider/tumeric.jpg"
-    - "images/slider/cupcakes.jpg"
+  products:
+    - link: "product"
+      image: "images/slider/lemon-ginger.jpg"
+    - link: "www.google.com"
+      image: "images/slider/lemonade.jpg"
+    - link: "www.google.com"
+      image: "images/slider/tumeric2.jpg"
+    - link: "www.google.com"
+      image: "images/slider/unsweetened.jpg"
+    - link: "www.google.com"
+      image: "images/slider/ginger-lemon-water.jpg"
+    - link: "www.google.com"
+      image: "images/slider/tumeric.jpg"
+    - link: "www.google.com"
+      image: "images/slider/cupcakes.jpg"
 
 
-################ About #######################
+################ Welcome #######################
+welcome:
+  enable: true
+  overlay: true
+  image: "images/product-shot.png"
+  bg_image: "images/grass.jpg"
+  title: "Welcome to Organic Motherland Foods"
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
+
+    ################ About #######################
 about:
   enable: true
   image: "images/cooker-img.png"
@@ -40,29 +56,21 @@ product:
 ​Vegan - Plant Based -Non Alcoholic - Gluten Free - No Fructose Corn Syrup - No Sodium Added - Organic Ingredients
 Fresh Organic Ginger - Organic Turmeric Root -
 Fresh Organic Lemons"
-  subtitle: "Lemonades"
+  subtitle:
+    type: "Lemonades"
+    description: The most versatile healthy immune system boosting beverage...It's delicious...Hot, Cold or as a mixer..."
   pricing_item:
     - title: "Organic Ginger Lemonade"
       size: "8 oz"
-      description: "The most versatile healthy immune system boosting beverage...It's delicious...Hot, Cold or as a mixer..."
       ingredients: "Purified Water, Fresh Organic Ginger Root,100% Lemon Juice concentrate,Organic Cane Sugar, Organic Lemon Juice, Organic Lemons"
       price: "$ 3.99"
 
-    - title: "Caesar Salad"
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-      price: "$ 100.00"
+    - title: "Organic Ginger Lemonade"
+      size: "750 mL"
+      ingredients: "Purified Water, Fresh Organic Ginger Root,100% Lemon Juice concentrate,Organic Cane Sugar, Organic Lemon Juice, Organic Lemons"
+      price: "$ 14.95"
 
-    - title: "Steak with a Garlic and Parsley Risotto"
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-      price: "$ 20.00"
-
-    - title: "Meat of Skewers"
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-      price: "$ 45.00"
-
-    - title: "Pancakes n' Such"
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-      price: "$ 25.00"
+    
 
   subtitle2: "Premium Water"
   pricing_item2:

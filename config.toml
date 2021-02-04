@@ -57,23 +57,28 @@ weight = 3
 
 [[menu.main]]
 name = "Products"
-URL = "price"
+URL = "product"
 weight = 2
 
 [[menu.main]]
-name = "News"
-URL = "subscribe"
+name = "Social Justice"
+URL = "social"
 weight = 5
 
 [[menu.main]]
 name = "Contact Us"
 URL = "contact-us"
-weight = 6
+weight = 7
 
 [[menu.main]]
 name = "Recipes"
 URL = "recipes"
-weight = 7
+weight = 6
+
+[[menu.main]]
+name = "Delivery Area"
+URL = "delivery"
+weight = 8
 
 #################### default parameters ################################
 [params]

@@ -9,9 +9,9 @@
 						<h3>{{ .title | markdownify }}</h3>
 					</div>
 					<div class="gallery-slider">
-						{{ range .images }}
-						<a href="{{ . | absURL }}" class="venobox" data-gall="sliderGallery"><img class="img-responsive"
-								src="{{ . | absURL }}" alt=""></a>
+						{{ range .products }}
+						<a href="#{{ .link }}" data-gall="sliderGallery"><img class="img-responsive product-nav"
+								src="{{ .image | absURL }}" alt=""></a>
 						{{ end }}
 					</div>
 				</div>
